@@ -2,7 +2,7 @@ name: Build Quakes API Container
 on: [push]
 env:
   DOCKER_REGISTRY: ${{ secrets.DOCKER_USERNAME }}.azurecr.io
-  IMAGE_NAME: modernclouddev/quakes-api
+  IMAGE_NAME: hackfest/quakes-api
 jobs:
   build:
     runs-on: ubuntu-latest
